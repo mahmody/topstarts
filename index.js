@@ -13,12 +13,12 @@ const devs = ['333140974865874944'];
 var Canvas = require('canvas');
 var jimp = require('jimp');
 var prefix = "-"
-const adminprefix = "admin-"
+const adminprefix = "admin!"
 
 client.on('ready', function(){
     client.user.setStatus("online");
     var ms = 100000 ;
-    var setGame = [`-help On ${client.guilds.size} Servers`,`-inv Users ${client.users.size}`,`Emerald Bot ❤ ✯`];
+    var setGame = [`-help On ${client.guilds.size} Servers`,`-inv Users ${client.users.size}`,`! ! ❤ ✯`];
     var i = -1;
     var j = 0;
     setInterval(function (){
